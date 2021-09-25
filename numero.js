@@ -24,8 +24,8 @@ do {
             continue
         }
     }
+    contador++
     soma = soma + num
-    contador = contador + 1
     if (maior < num) {
         var maior = num;
     }
